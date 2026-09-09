@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="sr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TI SE PITAŠ!</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  body {
+    background: #ffffff;
+    color: #e00000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-height: 100svh;
+    box-sizing: border-box;
+    padding: 6vh 4vw;
+  }
+
+  .datum,
+  .poziv {
+    font-size: clamp(1.4rem, 5vw, 3rem);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  .glavno {
+    font-size: clamp(2rem, 11.5vw, 9rem);
+    line-height: 1.05;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    margin: 0;
+  }
+</style>
 </head>
 <body>
-  <h1>Radi</h1>
+
+  <div class="datum">25. Oktobra</div>
+
+  <h1 class="glavno">TI SE PITAŠ!</h1>
+
+  <div class="poziv">IZAĐI. GLASAJ!</div>
+
 </body>
 </html>
